@@ -16,10 +16,18 @@
 
 ### Что нам пригодится из возможностей Python
 
-1) Функция для обработки ввода информации из консоли [input()]()
+1) Функция для обработки ввода информации из консоли [input()](https://docs.python.org/3/library/functions.html#input)
 ```python
 test_string = input() #ожидаем ввода пользователя и записываем строковое значение в переменную
 one_more_input = input("Введите любые символы: ") #выводим фразу, предшествующую вводу (как подсказка); ожидаем ввода пользователя и записываем строковое значение в переменную
+```
+
+2) Работа с циклами с помощью конструкции [while](https://docs.python.org/3/reference/compound_stmts.html#the-while-statement)
+```python
+counter = 1
+while counter <= 5: #описываем условия выполнения цикла
+  print("Счётчик равен: " + str(counter)
+  counter += 1
 ```
 
 ## Шаг 2. Разбор введённой информации о задаче
@@ -41,7 +49,7 @@ _Пример:_
 
 ### Что нам пригодится из возможностей Python
 
-1) Встроенная функция подсчета длины объекта [len()](https://www.w3schools.com/python/ref_func_len.asp)
+1) Встроенная функция подсчета длины объекта [len()](https://docs.python.org/3/library/functions.html#len)
 ```python
 test_string = "Это тестовая строка [да-да, она самая]"
 string_len = len(test_string) #вернёт кол-во символов в строке
